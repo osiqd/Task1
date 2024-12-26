@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.keeper.Controller">
+    <top>
+        <ToolBar fx:id="toolBar">
+            <HBox spacing="10">
+                <Button text="Добавить круг " onAction="#addCircle1"/>
+                <Separator orientation="vertical"/>
+                <Button text="Добавить прямоугольник " onAction="#addRectangle2"/>
+                <Separator orientation="vertical"/>
+                <Button text="Добавить треугольник" onAction="#addTriangle"/>
+                <Button text="Добавить параллелограмм" onAction="#addParallelogram"/>
+                <Button text="Добавить шестиугольник" onAction="#addHexagon"/>
+                <Separator orientation="vertical"/>
+                <Button text="Удалить последнюю фигуру" onAction="#removeLastShape"/>
+            </HBox>
+        </ToolBar>
+    </top>
+    <center>
+        <Pane fx:id="drawingPanel" prefWidth="800" prefHeight="600" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 2;">
+        </Pane>
+    </center>
+    <bottom>
+        <VBox>
+            <Pane fx:id="backgroundPanel" prefHeight="100" style="-fx-background-color: lightgray; -fx-padding: 10;">
+            </Pane>
+        </VBox>
+    </bottom>
+</BorderPane>
