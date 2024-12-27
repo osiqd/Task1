@@ -3,6 +3,6 @@
  - **Статус**:  1.0.
 
 **Скриншот рабочего окна приложения**:
-(https://github.com/user-attachments/assets/3c516f42-66e6-4e7d-8d44-cd457aa9b9f0)
+![изображение_2024-12-27_125833612](https://github.com/user-attachments/assets/3c516f42-66e6-4e7d-8d44-cd457aa9b9f0)
 ## Архитектура
 ![UML model](https://github.com/user-attachments/assets/94759896-74ca-4c0c-8c69-16cd15cf597c)
